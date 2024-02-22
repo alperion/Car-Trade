@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/cartrade
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+my-config:
+  jwt-secret-key: 5ccf533f341ff5e5b8cd9da5f3639c9bd3a6db56d0cc4a9887a35f0d7ed57ca57edd25ce6a9b073b4b4b1dc861ee9e6f9370067955e8b946e40695e1df3377bc
